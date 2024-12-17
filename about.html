@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="about.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gluten:wght@100..900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Stylish&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&family=Gluten:wght@100..900&family=Pacifico&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Stylish&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <title>About us</title>
+</head>
+<body style="position: relative;">
+
+  <div class="loader-main">
+    <div class="loader" >
+    </div>
+  </div>
+  <div id="id01" class="modal">
+    <form class="modal-content animate" action="/action_page.php" method="post">
+      <div class="imgcontainer">
+        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+        <img src="image/pngtree-man-avatar-with-circle-frame-vector-ilustration-png-image_6110328.png" alt="Avatar" class="avatar" >
+      </div>
+  
+      <div class="container">
+        <label class="s" for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+        <label class="s" for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+        <a href=""><button type="submit" class="login-button-1">Login</button></a>
+        <label>
+          <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+      </div>
+      <div class="container" style="background-color:#f1f1f1">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        <span class="psw">Forgot <a href="#">password?</a></span>
+      </div>
+    </form>
+  </div>
+  <div class="body-anim-icon">
+    <div class="body-icon">
+      <div class="icon-insta body-icons">
+        <i class="fa-brands fa-instagram"></i>
+      </div>
+      <div class="icon-yt body-icons">
+        <i class="fa-brands fa-youtube"></i>
+      </div>
+      <div class="icon-linkdin body-icons">
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+      <div class="icon-twitter body-icons">
+      <i class="fa-brands fa-x-twitter"></i>
+      </div>
+      <div class="icon-facebook body-icons">
+        <i class="fa-brands fa-facebook"></i>
+      </div>                                   
+    </div>
+  </div>
+  <div class="main">
+    <div class="container">
+      <nav>
+        <div class="logo-div">
+          <h4>web
+          <span>grow</span></h4>
+        </div>
+        <div class="listitem">
+          <ul class="big-display">
+            <li id="home-page"><a href="myweb.html">home</a></li>
+            <li id="list-item-selecter"><a>services <p class=" fa-solid fa-chevron-down "></p></a>
+
+              <div class="under-select-item">
+                <text><a id="text-under" href="service-front-page.html">front-end development</a></text>
+                <text><a id="text-under" href="service-backend-page.html">back-end development</a></text>
+                <text><a id="text-under"href="">full-stack development</a></text>
+              </div>            
+            </li>
+            <li id="list-item-selecter-tech"></i><a>Technologies <p class=" fa-solid fa-chevron-down "></p></a>
+              <div class="under-select-item-tech">
+                <text><a id="text-under" href="">front-end </a></text>
+                <text><a id="text-under" href="">back-end</a></text>
+                <!-- <option value="saab">back-end development</option>
+                <option value="opel">full-stack development</option>
+                <option value="audi">web designer development</option> -->
+              </div>                
+            </li>
+            <li id="about-page"><a>about</a></li>
+            <li id="contect-page"><a href="contect.html">conetect us</a></li>
+            <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;"  class="btn-login log-one-big-dis">login</button>
+            <i class="fa-solid fa-bars"></i>
+          </ul>
+          
+        </div>
+        <div class="small-list-item">
+          <ul class="small-display">  
+            <i class="fa-solid fa-xmark"></i>
+            <li><a href="myweb.html">home</a></li>
+            <li id="list-item-small-selector"><a href="#">services</a>
+              <div class="under-small-select-item">
+                <option value="front">front-end development</option>
+                <option value="back">back-end development</option>
+               
+              </div>  
+            </li>
+            <li><a href="#">Technologies</a></li>
+            <li><a>about</a></li>
+            <li><a href="contect.html">conetect us</a></li>
+          
+            <button  onclick="document.getElementById('id01').style.display='block'" style="width:auto;"  class="btn-login log-tow-small-dis">login</button>
+            
+          </ul>
+          
+        </div>
+      </nav>
+    </div>
+  </div>
+  <div class="abou-second-sec">
+   <div class="container">
+    <div class="ab-under-sec">
+      <div class="under-sec-heading">
+        <h1>about us</h1>
+        <p>"Transforming Ideas into Digital Excellence"</p>
+      </div>
+    </div>
+   </div>
+  </div>  
+  <div class="abut-third-sec">
+    <div class="container">
+      <div class="third-main">
+        <div class="ab-third-row">
+          <div class="ab-col-1-img">
+            <img src="image/3964906.jpg"  alt="">
+          </div>
+          <div class="ab-col-2-heading-part">
+            <div class="ab-col-2-under">
+              <h1>What We Develop</h1>
+              <p>We build integrated solutions that drive growth.</p>
+              <p>We craft transformative digital experiences that enhance lives. Our focus lies in developing innovative applications and websites aimed at enriching user experiences and improving quality of life. Embracing the ethos that technology holds the key to addressing contemporary challenges, we extend our expertise to the realms of mobile apps, web solutions, games, and digital experiences. Led by an expert team, our development consistently delivers impactful results across the globe. Our commitment is encapsulated in our motto: "Growing in Every Stage".</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="ab-four-sec">
+    <div class="container">
+      <div class="ab-under-four">
+        <div class="ab-four-row">
+          <div class="four-col-1">
+            <ul class="four-list">
+              <li>
+                <h3 id="f-l-one">Overview of our</h3>
+                <p>progress and task</p>
+              </li>
+              <li>
+                <h3>100 + </h3>
+                <p><b>project</b><br>we complited</p>
+              </li>
+              <li>
+                <h3>10+</h3>
+                <p><b>client</b><br>we worked with</p>
+              </li>
+              <li>
+                <h3>8 +</h3>
+                <p><b>countries</b><br>we seved</p>
+              </li>
+              <li>
+                <h3>10 +</h3>
+                <p><b>industries</b><br>we work for</p>
+              </li>
+              <li>
+                <h3>50 +</h3>
+                <p><b>team</b><br>built</p>
+              </li>
+            </ul>
+          </div>
+          <div class="four-col-1">
+            <div class="four-col-1-1">
+              <img src="web-img/map-e1d01a552b1444859dd7bfac6239371c5073f76dc80c2ab9fa58db9564551154.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="ab-five-sec">
+    <div class="container">
+      <div class="ab-under-five">
+        <div class="ab-five-row">
+          <div class="ab-five-col1">
+            <div class="ab-five-col1-under">
+              <h1>
+                step-up progress<br> by uniting<br>
+                <span>pepole, business & thechnology</span>
+              </h1>
+              <p>At softices, we bring new age, innovative technology to the table that helps every B2B business in viewing change as an
+                opportunity to thrive on. Every day, we are bringing people closer with cutting-edge technology and development solutions.</p>
+            </div>
+          </div>
+          <div class="ab-five-col2">
+
+            <div class="under-col2-1">
+              <div class="under-col2-2-1">
+                <img src="web-img/red-flag-1-5af98df32a07ea6aa0c656e4a268fb513dfa42cfa3a563568f722c98069914e1.png" alt="">
+              </div>
+              <h3>our mission</h3>
+              <p>
+                We are here to boost your business productivity and performance by offering ground breaking and economical solutions to up
+                your industry game.
+                </p>
+            </div>
+            <div class="under-col2-2">
+              <div class="under-col2-2-1">
+                <img src="web-img/eye-1-4cc7aa3d6f222201e2244a43127722271cdad3a4c1da9b706b66274b7f764f35.png">
+              </div>
+              <h3>our vision</h3>
+              <p>
+                We are here to boost your business productivity and performance by offering ground breaking and economical solutions to up
+                your industry game.
+                </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="ab-six-sec">
+    <div class="container">
+      <div class="ab-under-six-sec">
+          <div class="ab-six-heaing">
+            <h1>Streamline your business<br>processes with us.</h1>
+          </div>
+          <div class="ab-six-btn">
+            <button class="ab-six-btn">get a qout</button>
+          </div>
+      </div>
+    </div>
+  </div>
+  <footer class="ffoott">
+    <div class="container">
+      <div class="detail-section">
+        <div class="fot-col-main">
+          <div class="fot-row fot-one">
+            <div class="fot-logo">
+              <h1>web <span>grow </span></h1>
+            </div>
+          </div>
+          <div class="fot-row fot-tow">
+            <div class="fot-adderss">
+              <h1><i class="fa-solid fa-location-dot"></i>location</h1>
+              <p>6846 Rowe Circles, Delilahview, Oklahoma - 95614, Chad
+                394 Highfield Close, Kittyhaven, Virginia - 10557, Thailand
+                2756 Carmella Skyway, Janiyaborough, Iowa - 81861, Fiji
+                74375 Mary Street, Lake Leviland, Hawaii - 66049, Chile</p>
+            </div>
+          </div>
+          <div class="fot-row fot-three">
+            <div class="fot-call">
+              <h1><i class="fa-solid fa-phone"></i>Call</h1>
+              <p>+1 123 456 7890 </p>
+            </div>
+          </div>
+          <div class="fot-row fot-four">
+            <div class="fot-mail">
+              <h1><i class="fa-solid fa-envelope"></i>Email</h1>
+              <p>jocif56500@brinkc.com</p>
+            </div>
+          </div>
+          <div class="fot-row fot-five">
+            <div class="fot-follow">
+              <h1><i class="fa-solid fa-users"></i>Follow</h1>
+              <div class="fot-icon">
+                <div class="icon-insta icons">
+                  <i class="fa-brands fa-instagram"></i>
+                </div>
+                <div class="icon-yt icons">
+                  <i class="fa-brands fa-youtube"></i>
+                </div>
+                <div class="icon-linkdin icons">
+                  <i class="fa-brands fa-linkedin"></i>
+                </div>
+                <div class="icon-twitter icons">
+                <i class="fa-brands fa-x-twitter"></i>
+                </div>
+                <div class="icon-facebook icons">
+                 <i class="fa-brands fa-facebook"></i>
+                </div>                                   
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="last-fot">
+        <p>We are tracking any intention of piracy</p>
+        <p>Copyright © 2024 Web Grow Solutions. All rights reserved</p>
+      </div>
+    </div>
+
+  </footer>
+     <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+  <script src="myweb.js"></script>
+  <script>
+    
+  </script>
+</body>
+</html>

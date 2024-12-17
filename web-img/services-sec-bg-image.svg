@@ -1,0 +1,31 @@
+<svg width="1300" height="792" viewBox="0 0 1300 792" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M31.6857 0V792M79.2483 0V792M126.811 0V792M174.374 0V792M221.936 0V792M269.499 0V792M317.062 0V792M0 756.385H1300M364.624 0V792M0 708.7L1300 708.7M412.187 0V792M0 661.015L1300 661.015M459.749 0V792M0 613.329H1300M507.312 0V792M0 565.644H1300M554.875 0V792M0 517.959L1300 517.959M602.437 0V792M0 470.274L1300 470.274M650 0V792M0 422.589L1300 422.589M697.563 0V792M0 374.904L1300 374.904M745.125 0V792M0 327.219L1300 327.219M792.688 0V792M0 279.534L1300 279.534M840.251 0V792M0 231.848L1300 231.848M887.813 0V792M0 184.163L1300 184.163M935.376 0V792M0 136.478L1300 136.478M982.938 0V792M0 88.793L1300 88.793M1030.5 0V792M0 41.1079L1300 41.1078M1078.06 0V792M1125.63 0V792M1173.19 0V792M1220.75 0V792M1268.31 0V792" stroke="url(#paint0_radial_1_1222)" stroke-opacity="0.15" stroke-width="1.88776"/>
+<path d="M413 119V774" stroke="url(#paint1_linear_1_1222)" stroke-width="3"/>
+<path d="M886 119V774" stroke="url(#paint2_linear_1_1222)" stroke-width="3"/>
+<path d="M0 421L1300 421" stroke="url(#paint3_linear_1_1222)" stroke-width="3"/>
+<defs>
+<radialGradient id="paint0_radial_1_1222" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(650 423) rotate(90) scale(423 610.135)">
+<stop stop-color="#0094FF"/>
+<stop offset="0.645044" stop-color="#4AA4F4" stop-opacity="0.5"/>
+<stop offset="1" stop-color="white" stop-opacity="0"/>
+</radialGradient>
+<linearGradient id="paint1_linear_1_1222" x1="413.5" y1="119" x2="413.5" y2="774" gradientUnits="userSpaceOnUse">
+<stop stop-color="#4AA4F4" stop-opacity="0"/>
+<stop offset="0.0001" stop-color="white" stop-opacity="0.2"/>
+<stop offset="0.510417" stop-color="#0086FF"/>
+<stop offset="1" stop-color="#0086FF" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="paint2_linear_1_1222" x1="886.5" y1="119" x2="886.5" y2="774" gradientUnits="userSpaceOnUse">
+<stop stop-color="#4AA4F4" stop-opacity="0"/>
+<stop offset="0.0001" stop-color="white" stop-opacity="0.2"/>
+<stop offset="0.510417" stop-color="#0086FF"/>
+<stop offset="1" stop-color="#4AA4F4" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="paint3_linear_1_1222" x1="4.37114e-08" y1="420.5" x2="1300" y2="420.5" gradientUnits="userSpaceOnUse">
+<stop stop-color="#4AA4F4" stop-opacity="0"/>
+<stop offset="0.0001" stop-color="white" stop-opacity="0.2"/>
+<stop offset="0.510417" stop-color="#0086FF"/>
+<stop offset="1" stop-color="#4AA4F4" stop-opacity="0"/>
+</linearGradient>
+</defs>
+</svg>

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="service-backend-page.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gluten:wght@100..900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Stylish&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&family=Gluten:wght@100..900&family=Pacifico&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Stylish&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <title>About us</title>
+</head>
+<body style="position: relative;">
+
+  <div class="loader-main">
+    <div class="loader" >
+    </div>
+  </div>
+  <div id="id01" class="modal">
+    <form class="modal-content animate" action="/action_page.php" method="post">
+      <div class="imgcontainer">
+        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+        <img src="image/pngtree-man-avatar-with-circle-frame-vector-ilustration-png-image_6110328.png" alt="Avatar" class="avatar" >
+      </div>
+  
+      <div class="container">
+        <label class="s" for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+        <label class="s" for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+        <a href=""><button type="submit" class="login-button-1">Login</button></a>
+        <label>
+          <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+      </div>
+      <div class="container" style="background-color:#f1f1f1">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        <span class="psw">Forgot <a href="#">password?</a></span>
+      </div>
+    </form>
+  </div>
+  <div class="body-anim-icon">
+    <div class="body-icon">
+      <div class="icon-insta body-icons">
+        <i class="fa-brands fa-instagram"></i>
+      </div>
+      <div class="icon-yt body-icons">
+        <i class="fa-brands fa-youtube"></i>
+      </div>
+      <div class="icon-linkdin body-icons">
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+      <div class="icon-twitter body-icons">
+      <i class="fa-brands fa-x-twitter"></i>
+      </div>
+      <div class="icon-facebook body-icons">
+        <i class="fa-brands fa-facebook"></i>
+      </div>                                   
+    </div>
+  </div>
+  <div class="main">
+    <div class="container">
+      <nav>
+        <div class="logo-div">
+          <h4>web
+          <span>grow</span></h4>
+        </div>
+        <div class="listitem">
+          <ul class="big-display">
+            <li id="home-page"><a href="myweb.html">home</a></li>
+            <li id="list-item-selecter"><a>services <p class=" fa-solid fa-chevron-down "></p></a>
+              <div class="under-select-item">
+                <option value="front"><a href="">front-end development</a></option>
+                <option value="back"><a href="">back-end development</a></option>
+                <!-- <option value="saab">back-end development</option>
+                <option value="opel">full-stack development</option>
+                <option value="audi">web designer development</option> -->
+              </div>                
+            </li>
+            <li id="list-item-selecter-tech"></i><a>Technologies <p class=" fa-solid fa-chevron-down "></p></a>
+              <div class="under-select-item-tech">
+                <option value="front"><a href="">front-end </a></option>
+                <option value="back"><a href="">back-end</a></option>
+                <!-- <option value="saab">back-end development</option>
+                <option value="opel">full-stack development</option>
+                <option value="audi">web designer development</option> -->
+              </div>                
+            </li>
+            <li id="about-page"><a href="about.html">about</a></li>
+            <li id="contect-page"><a href="contect.html">conetect us</a></li>
+            <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;"  class="btn-login log-one-big-dis">login</button>
+            <i class="fa-solid fa-bars"></i>
+          </ul>
+        </div>
+        <div class="small-list-item">
+          <ul class="small-display">  
+            <i class="fa-solid fa-xmark"></i>
+            <li><a href="myweb.html">home</a></li>
+            <li id="list-item-small-selector"><a href="#">services</a>
+              <div class="under-small-select-item">
+                <option value="front">front-end development</option>
+                <option value="back">back-end development</option>
+                
+              </div>  
+            </li>
+            <li><a href="#">Technologies</a></li>
+            <li><a href="about.html">about</a></li>
+            <li><a href="contect.html">conetect us</a></li>
+            <button  onclick="document.getElementById('id01').style.display='block'" style="width:auto;"  class="btn-login log-tow-small-dis">login</button>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <div class="abou-second-sec">
+   <div class="container">
+    <div class="ab-under-sec">
+      <div class="under-sec-heading">
+        <h1>back-end devlopment</h1>
+        <p>"Building Robust Foundations for a Flawless User Experience"</p>
+      </div>
+    </div>
+   </div>
+  </div>  
+  <footer class="ffoott">
+    <div class="container">
+      <div class="detail-section">
+        <div class="fot-col-main">
+          <div class="fot-row fot-one">
+            <div class="fot-logo">
+              <h1>web <span>grow </span></h1>
+            </div>
+          </div>
+          <div class="fot-row fot-tow">
+            <div class="fot-adderss">
+              <h1><i class="fa-solid fa-location-dot"></i>location</h1>
+              <p>6846 Rowe Circles, Delilahview, Oklahoma - 95614, Chad
+                394 Highfield Close, Kittyhaven, Virginia - 10557, Thailand
+                2756 Carmella Skyway, Janiyaborough, Iowa - 81861, Fiji
+                74375 Mary Street, Lake Leviland, Hawaii - 66049, Chile</p>
+            </div>
+          </div>
+          <div class="fot-row fot-three">
+            <div class="fot-call">
+              <h1><i class="fa-solid fa-phone"></i>Call</h1>
+              <p>+1 123 456 7890 </p>
+            </div>
+          </div>
+          <div class="fot-row fot-four">
+            <div class="fot-mail">
+              <h1><i class="fa-solid fa-envelope"></i>Email</h1>
+              <p>jocif56500@brinkc.com</p>
+            </div>
+          </div>
+          <div class="fot-row fot-five">
+            <div class="fot-follow">
+              <h1><i class="fa-solid fa-users"></i>Follow</h1>
+              <div class="fot-icon">
+                <div class="icon-insta icons">
+                  <i class="fa-brands fa-instagram"></i>
+                </div>
+                <div class="icon-yt icons">
+                  <i class="fa-brands fa-youtube"></i>
+                </div>
+                <div class="icon-linkdin icons">
+                  <i class="fa-brands fa-linkedin"></i>
+                </div>
+                <div class="icon-twitter icons">
+                <i class="fa-brands fa-x-twitter"></i>
+                </div>
+                <div class="icon-facebook icons">
+                 <i class="fa-brands fa-facebook"></i>
+                </div>                                   
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="last-fot">
+        <p>We are tracking any intention of piracy</p>
+        <p>Copyright © 2024 Web Grow Solutions. All rights reserved</p>
+      </div>
+    </div>
+  </footer>
+     <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+  <script src="myweb.js"></script>
+  <script>
+  </script>
+</body>
+</html>
